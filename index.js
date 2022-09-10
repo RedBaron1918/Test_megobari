@@ -16,7 +16,7 @@ let w = document.documentElement.clientWidth;
         document.getElementById('main-img').style.display = "none";
         document.getElementById('Main-text').innerText = "MagicMassage™ provides relief from head tensions, muscle aches, sleep irregularities and more"
         document.getElementById('Main-btn').innerHTML=`
-        <div class="main-img-div">
+        <div class="main-img-div" style="margin-top:1rem;">
         <div class="div-img">
         <img src="./images/picture1.png" alt="">
     </div>
