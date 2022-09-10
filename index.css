@@ -377,9 +377,10 @@ header.code{
 .Card-green-btn button{
     background-color: #57AC73;
     border: none;
-    padding:8px;
+    padding:5px;
     color: white;
     border-radius: 20px;
+    font-size: 9px;
 }
 .Card-Prices-cont{
     display: flex;
@@ -394,9 +395,9 @@ header.code{
     display: flex;
 }
 .Card-first-div{
-    background-color: #57AC73;
-    padding: 8px;
-    border-radius: 11px;
+    background-color: #99D298;
+    padding: 9px;
+    border-radius: 9px;
     
 }
 .Card-two-divs{
@@ -404,13 +405,21 @@ header.code{
     border-radius: 10px;
 }
 .Card-first-div p{
-    font-size: 11px;
+    font-size: 10px;
+    color: #11346F;
+    font-weight: 700;
 }
 .Card-Orders{
     display: flex;
     flex-direction: column; 
-    border: 1px solid black;
+    border: 1px solid #AECCFF;
     border-radius: 10px;
+}
+.Card-bottom{
+    margin: 0.4rem 0;
+    text-align: center;
+    font-size: 12px;
+    color: #11346F;
 }
 @media only screen and (max-width: 740px){
     .Items{
