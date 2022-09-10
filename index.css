@@ -91,7 +91,7 @@ header.code{
 }
 
 .Main-cont{
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .Main-text{
@@ -135,10 +135,83 @@ header.code{
 .Main-card:last-child{
     border: none;
 }
+.main-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+ .main-img-div{
+    display: flex;
+    width: 100%;
+}
+.main-img-div {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: 1px solid #b5d4ff;;
+
+}
 .main-img img{
     width: 100%;
     max-width: 400px;
     height: auto;
+}
+.div-text{
+    display: flex;
+    flex-direction: column;
+}
+.Main-btn{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 2rem;
+    align-items: center;
+}
+.Main-btn .bluebtn{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    background-color: #197AFF;
+    color: white;
+}
+.Main-btn .graybtn{
+    width: 70%;
+    border: none;
+    padding: 6px;
+    border-radius: 2rem;
+}
+.div-img img{
+    max-width: 60px;
+    margin-right: 6px;
+}
+.Main-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.stars p{
+    margin: 0 5px;
+    color: #787979;
+
+}
+.verify{
+    display: flex;
+    align-items: center;
+}
+.verify p{
+    font-size: 9px;
+}
+.div-rate{
+    display: flex;
 }
 @media only screen and (max-width: 740px){
     .Items{
