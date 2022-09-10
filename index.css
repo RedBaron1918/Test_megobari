@@ -50,6 +50,10 @@ header.code{
 .header-cont:first-child{
     margin-right: auto;
 }
+.header-image img{
+    width: 100%;
+    max-width: 200px;
+}
 .header-cont:last-child{
     margin-left: auto;
 }
@@ -76,33 +80,20 @@ header.code{
     display: flex;
     align-items: center;
     letter-spacing: 3px;
-    width: 80%;
+    margin-bottom: 1rem;
     
-}
-.heading .span span{
-position: absolute;
-}
-.heading img{
-    position: relative;
-    right: 0;
 }
 .heading span{
      color: #197AFF;
-     margin-right: 0.3rem;
      padding: 5px;
      border-bottom: 2px solid #197AFF;
 
 }
-.heading{
-    display: flex;
-    align-items: center; 
-    margin-bottom: 1rem;
-}
+
 .Main-cont{
     padding: 3rem;
 }
-.Main-text-content{
-}
+
 .Main-text{
     line-height: 1.5rem;
     width: 70%;
@@ -118,7 +109,7 @@ position: absolute;
     border-radius: 1rem;
     border: 1px solid rgb(177, 177, 177);
     width: 80%;
-    padding: 1rem;
+    padding: 1;
     margin-top: 2rem;
 }
 .Main-card{
@@ -126,6 +117,7 @@ position: absolute;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     font-size: 0.7rem;
     border-right: 1px solid #CEE2FF;
     width: 80%;
@@ -133,6 +125,12 @@ position: absolute;
 }
 .Main-card h2{
     color: #11346F;
+}
+
+.Main-half-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .Main-card:last-child{
     border: none;
@@ -142,6 +140,46 @@ position: absolute;
     max-width: 400px;
     height: auto;
 }
-@media only screen and (max-width: 738px){
+@media only screen and (max-width: 740px){
+    .Items{
+        display: none;
+    }
+    .header-btn{
+        display: none;
+    }
+    .heading{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .heading h1{
+        width: 40%;
+    }
     
+    /* .main-img{
+        display: none;
+    } */
+    .Main-card ul{
+        display: none;
+    }
+    .Main-card{
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    .Main-cards{
+        background-color: transparent;
+        border: none;
+        width: 100%;
+        padding: 0;
+        margin-top: 1rem;
+
+    }
+    .Main-text{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .Main-half-text{
+        justify-content: center;
+        align-items: center;
+    }
 }
