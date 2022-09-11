@@ -85,17 +85,68 @@ accordionItemHeaders.forEach(accordionItemHeader => {
         <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
             <img src="./images/cardimg1.png" style="width:100%">
-            <div class="text">Caption Text</div>
+            <div class="Reviews-rating">
+                    <div class="Reviews-name">
+                        <p>Megan K.</p>
+                        <div class="Reviews-Stars">
+                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle-check" style="display: inline-block; color: #89C25F;"></i> <p style="display: inline-block; color: #89C25F;">verified buyer</p>
+                    </div>
+                </div>
+                <div class="Reviews-Review">
+                        <p>I love the MagicMassage! It’s simple to use, does not mess up my curly hair as many other similar products do, and the massage is relaxing as it is refreshing. I feel like it has been made for my scalp! It just feels right.</p>
+                </div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
-            <img src="./images/cardimg1.png" style="width:100%">
-            <div class="text">Caption Two</div>
+            <img src="./images/cardimg2.png" style="width:100%">
+            <div class="Reviews-rating">
+            <div class="Reviews-name">
+                <p>Megan K.</p>
+                <div class="Reviews-Stars">
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                </div>
+            </div>
+            <div>
+                <i class="fa-solid fa-circle-check" style="display: inline-block; color: #89C25F;"></i> <p style="display: inline-block; color: #89C25F;">verified buyer</p>
+            </div>
+        </div>
+        <div class="Reviews-Review">
+                <p>I could not be happier with this product! I use it at night to relax and it does wonders for me. My kids and dog also love it, they’ll sit and let me massage their scalp for hours. At first my Labrador was hesitant not knowing what it was, but now she gets excited as soon as I take the MagicMassage out.</p>
+        </div>
         </div>
         <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-            <img src="./images/cardimg1.png" style="width:100%">
-            <div class="text">Caption Three</div>
+            <img src="./images/cardimg3.png" style="width:100%">
+            <div class="Reviews-rating">
+            <div class="Reviews-name">
+                <p>Megan K.</p>
+                <div class="Reviews-Stars">
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                </div>
+            </div>
+            <div>
+                <i class="fa-solid fa-circle-check" style="display: inline-block; color: #89C25F;"></i> <p style="display: inline-block; color: #89C25F;">verified buyer</p>
+            </div>
+        </div>
+        <div class="Reviews-Review">
+                <p>It arrived in perfect condition, and the packaging was immaculate. It felt amazing on my head, like someone was massaging it with the perfect pressure and speed. My long hair doesn't get caught in it at all, and I feel relaxed after using it. Best purchase I’ve made in a LONG time!</p>
+        </div>
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
