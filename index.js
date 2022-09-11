@@ -84,16 +84,16 @@ accordionItemHeaders.forEach(accordionItemHeader => {
         <div class="slideshow-container">
         <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
-            <img src="./images/cardimg1.png" style="width:100%">
+            <img src="./images/test.svg" style="width:100%">
             <div class="Reviews-rating">
                     <div class="Reviews-name">
                         <p>Megan K.</p>
                         <div class="Reviews-Stars">
-                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                            <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
                         </div>
                     </div>
                     <div>
@@ -106,16 +106,16 @@ accordionItemHeaders.forEach(accordionItemHeader => {
         </div>
         <div class="mySlides fade">
             <div class="numbertext">2 / 3</div>
-            <img src="./images/cardimg2.png" style="width:100%">
+            <img src="./images/test2.svg" style="width:100%">
             <div class="Reviews-rating">
             <div class="Reviews-name">
                 <p>Megan K.</p>
                 <div class="Reviews-Stars">
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
                 </div>
             </div>
             <div>
@@ -128,16 +128,16 @@ accordionItemHeaders.forEach(accordionItemHeader => {
         </div>
         <div class="mySlides fade">
             <div class="numbertext">3 / 3</div>
-            <img src="./images/cardimg3.png" style="width:100%">
+            <img src="./images/test3.svg" style="width:100%">
             <div class="Reviews-rating">
             <div class="Reviews-name">
                 <p>Megan K.</p>
                 <div class="Reviews-Stars">
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
                 </div>
             </div>
             <div>
@@ -151,12 +151,7 @@ accordionItemHeaders.forEach(accordionItemHeader => {
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <br>
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
+   
     `
     showSlides(slideIndex)
     }else{
@@ -169,11 +164,11 @@ accordionItemHeaders.forEach(accordionItemHeader => {
             <div class="Reviews-name">
                 <p>Megan K.</p>
                 <div class="Reviews-Stars">
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
                 </div>
             </div>
             <div>
@@ -195,11 +190,11 @@ accordionItemHeaders.forEach(accordionItemHeader => {
             <div class="Reviews-name">
                 <p>Megan K.</p>
                 <div class="Reviews-Stars">
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
                 </div>
             </div>
             <div>
@@ -222,11 +217,11 @@ accordionItemHeaders.forEach(accordionItemHeader => {
             <div class="Reviews-name">
                 <p>Megan K.</p>
                 <div class="Reviews-Stars">
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
                 </div>
             </div>
             <div>
@@ -249,11 +244,11 @@ accordionItemHeaders.forEach(accordionItemHeader => {
             <div class="Reviews-name">
                 <p>Megan K.</p>
                 <div class="Reviews-Stars">
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
-                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 12px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
+                    <i class="fa-solid fa-star" style="color: #F6C644; font-size: 9px;"></i>
                 </div>
             </div>
             <div>
@@ -281,7 +276,6 @@ accordionItemHeaders.forEach(accordionItemHeader => {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
 }
   
 slide()
