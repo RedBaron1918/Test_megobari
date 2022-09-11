@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 header.code{
     text-align: center;
@@ -118,12 +119,12 @@ header.code{
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     border-right: 1px solid #CEE2FF;
     width: 80%;
-    padding: .8rem;
+    padding: .9rem;
 }
-.Main-card h2{
+.Main-card h3{
     color: #11346F;
 }
 
@@ -456,6 +457,8 @@ header.code{
     border-top-left-radius: 11px;
     border-top-right-radius: 5px;
     border-radius: 5px;
+    margin-bottom: 1rem;
+
   
 }
 .Reviews-Card-img img{
@@ -467,6 +470,72 @@ header.code{
 }
 .Reviews-Card-Wrapper{
     margin-top: .5rem;
+}
+.accordion {
+    width: 95%;
+    max-width: 500px;
+  }
+  .accordion-item {
+    background-color: #31548E;
+    color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+  }
+  .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .accordion-item-header::after {
+    content: "\2039";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    transform: rotate(90deg);
+  }
+  .accordion-item-header.active::after {
+    content: "\203A";
+    
+  }
+  .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    background-color: #194081;
+
+  }
+  footer{
+    text-align: center;
+    background-color: #11346F;
+  }
+  footer h1{
+    color: white;
+    margin-bottom: 1rem;
+  }
+  footer span{
+    font-weight: 900;
+  }
+  .footer-img img{
+    max-width: 300px;
+    width: 100%;
+    
+  }
+  .footer-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 @media only screen and (max-width: 740px){
     .Items{
@@ -523,5 +592,11 @@ header.code{
     .Cards-container{
         flex-direction: column;
         align-items: center;
+    }
+    .footer-cont{
+        flex-direction: column;
+    }
+    .footer-img img{
+        max-width: 200px;
     }
 }
