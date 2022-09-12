@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
 header.code{
     text-align: center;
     background-color: #11346F;
@@ -16,6 +21,7 @@ header.code{
     align-items: center;
     padding: .5rem;
     background-color: #F5FDFF;
+   
 }
 
 .Items{
@@ -179,6 +185,9 @@ header.code{
     background-color: #197AFF;
     color: white;
 }
+.bluebtn:hover{
+    background-color: #1375ff;
+}
 .Main-btn .graybtn{
     font-weight: 500;
     width: 70%;
@@ -281,7 +290,7 @@ header.code{
 .arrowimg{
     position: relative;
     top: -40px;
-    z-index: 99;
+    z-index: 3;
     margin: -40px;
     left: 210px;
     width: 70px;
@@ -294,7 +303,7 @@ header.code{
     position: relative;
     top: -35px;
     margin-bottom: -2rem;
-    z-index: 99;
+    z-index: 2;
 }
 .Card-first-image img{
     max-width: 200px;
@@ -367,6 +376,10 @@ font-weight: 500;
     cursor: pointer;
     background-color: #197AFF;
     color: white;
+    font-weight: 500;
+}
+.Card-btn button:hover{
+    background-color: #0d71fd;
 }
 .Card-small-text-first{
     display: flex;
@@ -618,7 +631,7 @@ font-weight: 500;
   transition: background-color 0.6s ease;
 }
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #4a82fa;
 }
 .fade {
   -webkit-animation-name: fade;
