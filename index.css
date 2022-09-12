@@ -631,7 +631,7 @@ font-weight: 500;
   transition: background-color 0.6s ease;
 }
 .active, .dot:hover {
-  background-color: #4a82fa;
+  background-color: #325b9c;
 }
 .fade {
   -webkit-animation-name: fade;
